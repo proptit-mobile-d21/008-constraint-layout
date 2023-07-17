@@ -338,15 +338,36 @@
 
     </ScrollView>
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
+<!--    <com.google.android.material.bottomnavigation.BottomNavigationView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        app:menu="@menu/menu_bottom_nav"-->
+<!--        android:background="@color/white"-->
+<!--        app:itemBackground="@color/white"-->
+<!--        app:itemIconTint="@color/custom_color_bottom_nav"-->
+<!--        app:itemTextColor="@color/black"-->
+<!--        app:labelVisibilityMode="labeled"-->
+<!--        />-->
+
+    <nl.joery.animatedbottombar.AnimatedBottomBar
+        android:id="@+id/bottom_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        app:menu="@menu/menu_bottom_nav"
         android:background="@color/white"
-        app:itemBackground="@color/white"
-        app:itemIconTint="#4CAF50"
-        app:itemTextColor="@color/black"
+        app:abb_indicatorColor="#8BC34A"
+        app:abb_indicatorAppearance="square"
+        app:abb_selectedIndex="0"
+        app:abb_selectedTabType="text"
+        app:abb_tabs="@menu/menu_bottom_nav"
+        app:abb_rippleColor="#8BC34A"
+        app:abb_rippleEnabled="true"
+        app:abb_tabColorSelected="#8BC34A"
+        app:abb_tabColorDisabled="@color/black"
+        android:layout_alignParentBottom="true"
+        app:abb_indicatorAnimation="slide"
+        abb_indicatorLocation="bottom"
+
         />
 
 

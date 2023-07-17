@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Constraint Layout Demo</string>
+    <string name="action_home">Trang chủ</string>
+    <string name="action_preferential">Ưu đãi</string>
+    <string name="action_order">Đơn hàng</string>
+    <string name="action_mailbox">Hộp thư</string>
 </resources>
