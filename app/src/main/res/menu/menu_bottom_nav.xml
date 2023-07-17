@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/home"
+        android:title="Trang chủ"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item
+        android:title="Ưu đãi"
+        android:id="@+id/Preferential"
+        android:icon="@drawable/baseline_attach_money_24"
+        />
+
+    <item
+        android:title="Đơn hàng"
+        android:id="@+id/Order"
+        android:icon="@drawable/baseline_order_24"
+        />
+    <item
+        android:title="Hộp thư"
+        android:id="@+id/Mailbox"
+        android:icon="@drawable/baseline_chat_24"
+        />
+</menu>
