@@ -1,23 +1,163 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:orientation="vertical">
 
-<!--    TODO: Các em lưu ý:-->
-<!--    - Phần thanh tìm kiếm (Toolbar) nên làm cuối cùng vì tốn tg-->
-<!--    - Nên tập trung làm home trước-->
-<!--    - Không nên làm pixel perfect ngay từ đầu, chọn màu chọn font các thứ, làm layout xong trước đã! -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/green"
+        android:gravity="center|start">
+        <ImageView
+            android:id="@+id/account_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:src="@drawable/baseline_account_circle_48"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|start"
+            android:orientation="horizontal"
+            android:layout_marginStart="15dp"
+            android:layout_marginVertical="15dp"
+            android:background="@drawable/rounded_box"
+            android:layout_toStartOf="@id/account_btn">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/baseline_search"
+                app:tint="@color/dark"
+                android:layout_marginVertical="5dp"
+                android:layout_marginStart="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center|start"
+                android:layout_marginHorizontal="10dp"
+                android:textSize="14sp"
+                android:text="@string/search_bar_text"/>
+        </LinearLayout>
+    </RelativeLayout>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:nestedScrollingEnabled="false">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/covid"
+                android:adjustViewBounds="true"
+                android:nestedScrollingEnabled="false"/>
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/khau_trang_5"
+                android:adjustViewBounds="true"
+                android:nestedScrollingEnabled="false"/>
+        </LinearLayout>
+    </ScrollView>
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:padding="5dp"
+        android:outlineProvider="bounds"
+        android:background="@color/white"
+        android:elevation="30dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:weightSum="4"
+        android:paddingHorizontal="10dp"
+        android:baselineAligned="false">
+
+        <LinearLayout
+            android:id="@+id/home_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:src="@drawable/baseline_home"
+                app:tint="@color/green"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="@string/home_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/reward_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:src="@drawable/baseline_percent"
+                app:tint="@color/silver"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/reward_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/bill_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:src="@drawable/baseline_request_page"
+                app:tint="@color/silver"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/bill_text"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/message_btn"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="3dp"
+                android:src="@drawable/baseline_message"
+                app:tint="@color/silver"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/mail_text"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
