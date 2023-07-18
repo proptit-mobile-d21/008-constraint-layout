@@ -73,19 +73,20 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
-            android:layout_weight="1"
             android:orientation="vertical">
             <!--        Main 1-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="0dp"
                 android:orientation="horizontal">
 
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="0dp"
+                    android:paddingEnd="0dp"
                     android:src="@drawable/baseline_food_bank_24" />
 
                 <TextView
@@ -99,7 +100,8 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="12dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginEnd="0dp"
                 android:orientation="horizontal">
 
                 <ImageView
@@ -113,21 +115,25 @@
                     android:layout_gravity="center"
                     android:text="@string/freeship_90"
                     android:textStyle="bold"
-                    android:textSize="18dp"/>
+                    android:textSize="18sp"/>
             </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
-                android:text="@string/freeship_2goi" />
+                android:paddingEnd="0dp"
+                android:text="@string/freeship_2goi"
+                android:textSize="16sp"/>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
+                android:paddingEnd="0dp"
                 android:paddingBottom="8dp"
-                android:text="@string/mua_goi" />
+                android:text="@string/mua_goi"
+                android:textSize="16sp"/>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
@@ -151,7 +157,7 @@
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
+                android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginBottom="8dp"
                 android:orientation="horizontal">
@@ -173,14 +179,14 @@
                         android:paddingRight="8dp"
                         android:text="@string/go_car"
                         android:textStyle="bold"
-                        android:textSize="18dp"/>
+                        android:textSize="18sp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/go_ride"
                         android:textStyle="bold"
-                        android:textSize="18dp"/>
+                        android:textSize="18sp"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -189,26 +195,30 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
+                android:paddingEnd="0dp"
                 android:paddingBottom="8dp"
                 android:text="@string/di_muon_noi"
                 android:textStyle="bold"
-                android:textSize="18dp"/>
+                android:textSize="18sp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
-                android:paddingStart="16dp">
+                android:paddingStart="16dp"
+                android:paddingEnd="0dp">
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dat_nhanh" />
+                    android:text="@string/dat_nhanh"
+                    android:textSize="16sp"/>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dat_chuyen" />
+                    android:text="@string/dat_chuyen"
+                    android:textSize="16sp"/>
             </LinearLayout>
 
             <HorizontalScrollView
@@ -217,14 +227,14 @@
                 android:layout_height="match_parent">
 
                 <LinearLayout
-                    android:layout_width="match_parent"
+                    android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
                         app:cardCornerRadius="24dp">
@@ -237,7 +247,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
                                 android:scaleType="fitXY"
                                 android:src="@drawable/image1" />
 
@@ -247,12 +256,13 @@
                                 android:padding="8dp"
                                 android:text="@string/uu_dai"
                                 android:textStyle="bold"
-                                android:textSize="16dp"/>
+                                android:textSize="16sp"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:paddingLeft="8dp"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="0dp"
                                 android:paddingBottom="16dp"
                                 android:text="@string/xem_uu_dai" />
                         </LinearLayout>
@@ -261,7 +271,8 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="0dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
                         app:cardCornerRadius="24dp">
@@ -274,7 +285,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
                                 android:scaleType="fitXY"
                                 android:src="@drawable/image1" />
 
@@ -284,12 +294,13 @@
                                 android:padding="8dp"
                                 android:text="@string/don_le"
                                 android:textStyle="bold"
-                                android:textSize="16dp"/>
+                                android:textSize="16sp"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:paddingLeft="8dp"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="0dp"
                                 android:paddingBottom="16dp"
                                 android:text="@string/dat_la_co" />
                         </LinearLayout>
@@ -298,10 +309,10 @@
                     <androidx.cardview.widget.CardView
                         android:layout_width="200dp"
                         android:layout_height="wrap_content"
-                        android:layout_marginLeft="20dp"
+                        android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
-                        android:layout_marginRight="16dp"
+                        android:layout_marginEnd="16dp"
                         app:cardCornerRadius="24dp">
 
                         <LinearLayout
@@ -312,7 +323,6 @@
                             <ImageView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:layout_weight="1"
                                 android:scaleType="fitXY"
                                 android:src="@drawable/image1" />
 
@@ -322,12 +332,13 @@
                                 android:padding="8dp"
                                 android:text="@string/don_le"
                                 android:textStyle="bold"
-                                android:textSize="16dp"/>
+                                android:textSize="16sp"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:paddingLeft="8dp"
+                                android:paddingStart="8dp"
+                                android:paddingEnd="0dp"
                                 android:paddingBottom="16dp"
                                 android:text="@string/dat_la_co" />
                         </LinearLayout>
