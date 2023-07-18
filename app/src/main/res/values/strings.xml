@@ -13,4 +13,8 @@
     <string name="xem_uu_dai">Xem mục Ưu đãi ngay!</string>
     <string name="don_le">Đặt nhanh đón lẹ</string>
     <string name="dat_la_co">Đặt là có xế cứ thế mà vi vu</string>
+    <string name="home_title">Trang chủ</string>
+    <string name="discount_title">Ưu đãi</string>
+    <string name="order_title">Đơn hàng</string>
+    <string name="mail_title">Hộp thư</string>
 </resources>

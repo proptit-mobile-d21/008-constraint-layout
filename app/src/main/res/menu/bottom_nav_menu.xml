@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="@string/home_title"
+        android:icon="@drawable/baseline_home_24"
+        />
+    <item
+        android:id="@+id/discount"
+        android:title="@string/discount_title"
+        android:icon="@drawable/baseline_percent_24"
+        />
+    <item
+        android:id="@+id/order"
+        android:title="@string/order_title"
+        android:icon="@drawable/baseline_pending_actions_24"
+        />
+    <item
+        android:id="@+id/mail"
+        android:title="@string/mail_title"
+        android:icon="@drawable/baseline_chat_24"
+        />
+</menu>
