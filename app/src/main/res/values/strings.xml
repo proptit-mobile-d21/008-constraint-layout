@@ -10,5 +10,7 @@
     <string name="dat_nhanh">Đặt nhanh đón lẹ đi đâu cũng khỏe.</string>
     <string name="dat_chuyen">Đặt chuyến ngay!</string>
     <string name="uu_dai">Ưu đãi có sẵn trong ví</string>
-    <string name="xem_uu_dai">Xem mục Ưu đãi ngay</string>
+    <string name="xem_uu_dai">Xem mục Ưu đãi ngay!</string>
+    <string name="don_le">Đặt nhanh đón lẹ</string>
+    <string name="dat_la_co">Đặt là có xế cứ thế mà vi vu</string>
 </resources>

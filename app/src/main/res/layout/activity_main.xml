@@ -154,13 +154,16 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/uu_dai">
+                            android:text="@string/uu_dai"
+                            android:padding="8dp">
                         </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/xem_uu_dai">
+                            android:text="@string/xem_uu_dai"
+                            android:paddingLeft="8dp"
+                            android:paddingBottom="16dp">
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
@@ -187,13 +190,16 @@
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/uu_dai">
+                            android:text="@string/don_le"
+                            android:padding="8dp">
                         </TextView>
 
                         <TextView
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
-                            android:text="@string/xem_uu_dai">
+                            android:text="@string/dat_la_co"
+                            android:paddingLeft="8dp"
+                            android:paddingBottom="16dp">
                         </TextView>
                     </LinearLayout>
                 </androidx.cardview.widget.CardView>
