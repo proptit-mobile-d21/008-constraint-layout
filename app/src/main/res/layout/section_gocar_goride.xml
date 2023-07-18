@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:scaleX="3"
+        android:scaleY="3"
+        android:src="@drawable/gofood_plus" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="📦 Gửi đi cứ GoSen đi!"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Giá hạt dẻ, Giao nhanh, nhận khoẻ ✨" />
+
+    <HorizontalScrollView
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <dev.proptit.constraintlayoutdemo.FullWidthImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/rounded_clip"
+                android:clipToOutline="true"
+                android:src="@drawable/banner_wide" />
+
+            <dev.proptit.constraintlayoutdemo.FullWidthImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_clip"
+                android:clipToOutline="true"
+                android:src="@drawable/banner_wide" />
+
+            <dev.proptit.constraintlayoutdemo.FullWidthImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/rounded_clip"
+                android:clipToOutline="true"
+                android:src="@drawable/banner_wide" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+</LinearLayout>
