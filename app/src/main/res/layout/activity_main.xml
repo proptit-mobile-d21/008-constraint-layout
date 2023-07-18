@@ -67,6 +67,7 @@
         android:id="@+id/mainscroll"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:layout_marginBottom="72dp"
         android:layout_below="@id/toolbar">
 
         <LinearLayout
@@ -85,13 +86,14 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:paddingStart="0dp"
-                    android:src="@drawable/baseline_food_bank_24"></ImageView>
+                    android:src="@drawable/baseline_food_bank_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="@string/plus"></TextView>
+                    android:text="@string/plus"
+                    android:textStyle="bold"/>
             </LinearLayout>
 
             <LinearLayout
@@ -103,27 +105,29 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_shopping_bag_24"></ImageView>
+                    android:src="@drawable/baseline_shopping_bag_24" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center"
-                    android:text="@string/freeship_90"></TextView>
+                    android:text="@string/freeship_90"
+                    android:textStyle="bold"
+                    android:textSize="18dp"/>
             </LinearLayout>
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
-                android:text="@string/freeship_2goi"></TextView>
+                android:text="@string/freeship_2goi" />
 
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/mua_goi"></TextView>
+                android:text="@string/mua_goi" />
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
@@ -131,6 +135,7 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginBottom="8dp"
                 android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
                 app:cardCornerRadius="24dp"
                 app:cardPreventCornerOverlap="false">
 
@@ -138,7 +143,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="200dp"
                     android:scaleType="fitXY"
-                    android:src="@drawable/go_plus"></ImageView>
+                    android:src="@drawable/go_plus" />
             </androidx.cardview.widget.CardView>
 
 
@@ -154,7 +159,7 @@
                 <ImageView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_android_24"></ImageView>
+                    android:src="@drawable/baseline_android_24" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -166,12 +171,16 @@
                         android:layout_gravity="center"
                         android:paddingLeft="8dp"
                         android:paddingRight="8dp"
-                        android:text="@string/go_car"></TextView>
+                        android:text="@string/go_car"
+                        android:textStyle="bold"
+                        android:textSize="18dp"/>
 
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="@string/go_ride"></TextView>
+                        android:text="@string/go_ride"
+                        android:textStyle="bold"
+                        android:textSize="18dp"/>
                 </LinearLayout>
 
             </LinearLayout>
@@ -181,7 +190,9 @@
                 android:layout_height="wrap_content"
                 android:paddingStart="16dp"
                 android:paddingBottom="8dp"
-                android:text="@string/di_muon_noi"></TextView>
+                android:text="@string/di_muon_noi"
+                android:textStyle="bold"
+                android:textSize="18dp"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -192,22 +203,22 @@
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dat_nhanh"></TextView>
+                    android:text="@string/dat_nhanh" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/dat_chuyen"></TextView>
+                    android:text="@string/dat_chuyen" />
             </LinearLayout>
 
-            <ScrollView
+            <HorizontalScrollView
                 android:id="@+id/scroll"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent">
 
                 <LinearLayout
                     android:layout_width="match_parent"
-                    android:layout_height="0dp"
+                    android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
@@ -228,20 +239,22 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/image1"></ImageView>
+                                android:src="@drawable/image1" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:padding="8dp"
-                                android:text="@string/uu_dai"></TextView>
+                                android:text="@string/uu_dai"
+                                android:textStyle="bold"
+                                android:textSize="16dp"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="8dp"
                                 android:paddingBottom="16dp"
-                                android:text="@string/xem_uu_dai"></TextView>
+                                android:text="@string/xem_uu_dai" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
@@ -263,20 +276,22 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/image1"></ImageView>
+                                android:src="@drawable/image1" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:padding="8dp"
-                                android:text="@string/don_le"></TextView>
+                                android:text="@string/don_le"
+                                android:textStyle="bold"
+                                android:textSize="16dp"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingLeft="8dp"
                                 android:paddingBottom="16dp"
-                                android:text="@string/dat_la_co"></TextView>
+                                android:text="@string/dat_la_co" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
@@ -286,6 +301,7 @@
                         android:layout_marginLeft="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
+                        android:layout_marginRight="16dp"
                         app:cardCornerRadius="24dp">
 
                         <LinearLayout
@@ -298,22 +314,26 @@
                                 android:layout_height="wrap_content"
                                 android:layout_weight="1"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/image1"></ImageView>
+                                android:src="@drawable/image1" />
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/uu_dai"></TextView>
+                                android:padding="8dp"
+                                android:text="@string/don_le"
+                                android:textStyle="bold"
+                                android:textSize="16dp"/>
 
                             <TextView
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="@string/xem_uu_dai"></TextView>
+                                android:paddingLeft="8dp"
+                                android:paddingBottom="16dp"
+                                android:text="@string/dat_la_co" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
-
                 </LinearLayout>
-            </ScrollView>
+            </HorizontalScrollView>
         </LinearLayout>
     </ScrollView>
 
