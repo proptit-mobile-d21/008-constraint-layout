@@ -29,6 +29,7 @@
     </LinearLayout>
     <ScrollView
         android:layout_below="@+id/search_bar"
+        android:layout_above="@+id/bottom_bar"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <LinearLayout
@@ -164,14 +165,14 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="gocar goride"
+                android:text="&#128664; gocar goride"
                 android:textStyle="bold"
                 android:padding="5dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Hè phiêu lưu ký, deal xịn hết ý, Goject nha"
+                android:text="&#127774; Hè phiêu lưu ký, deal xịn hết ý, Goject nha"
                 android:textStyle="bold"
                 android:padding="5dp"
                 />
@@ -179,7 +180,7 @@
                 android:layout_marginEnd="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Đặt xe đi học, đi làm, đi chill giảm ngay 50% với mã GOJEKNHA và GOCARNHA"
+                android:text="&#128663; &#128693;Đặt xe đi học, đi làm, đi chill giảm ngay 50% với mã GOJEKNHA và GOCARNHA"
                 android:padding="5dp"
                 />
 
@@ -193,21 +194,21 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="gojek"
+                android:text="&#128266; gojek"
                 android:textStyle="bold"
                 android:padding="5dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Ưu đãi đặc biệt dành cho bạn"
+                android:text="&#128339; Ưu đãi đặc biệt dành cho bạn"
                 android:textStyle="bold"
                 android:padding="5dp"
                 />
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Siêu nhiều chương trình hấp dẫn đang chờ đạn đó. Nhấn và khám phá ngay"
+                android:text="&#128526; &#128558; Siêu nhiều chương trình hấp dẫn đang chờ đạn đó. Nhấn và khám phá ngay"
                 android:textStyle="bold"
                 android:padding="5dp"
                 />
@@ -231,19 +232,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Gocar Goride"
+                        android:text="&#128664; Gocar Goride"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Đi muôn nơi cùng Gojek"
+                        android:text="&#128525; Đi muôn nơi cùng Gojek"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Đặt nhanh đón lẹ đi đâu cũng khoẻ. Đặt chuyến ngay"
+                        android:text="&#128640; &#128644; Đặt nhanh đón lẹ đi đâu cũng khoẻ. Đặt chuyến ngay"
                         />
                 </LinearLayout>
                 <Button
@@ -267,19 +268,19 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="PLUS"
+                android:text="&#128149; &#128153; PLUS"
                 android:textStyle="bold"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Đăng ký 1 lần - 90 lần Freeship"
+                android:text="&#128092; Đăng ký 1 lần - 90 lần Freeship"
                 android:textStyle="bold"
                 />
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2 gói freeship tiết kiệm đến 1,3 triêệu cho bạn lựa chọn. Mua gói ngay!"
+                android:text="&#128176; &#128179; 2 gói freeship tiết kiệm đến 1,3 triêệu cho bạn lựa chọn. Mua gói ngay!"
 
                 />
             <ImageView
@@ -300,19 +301,19 @@
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gofood"
+                        android:text="&#127860;gofood"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Trọn bộ ưu đãi xịn dành cho bạn"
+                        android:text="&#128536; &#128536; Trọn bộ ưu đãi xịn dành cho bạn"
                         android:textStyle="bold"
                         />
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="gofood luôn có ưu đãi ể khao bạn. Xem liền nha!"
+                        android:text="&#127775; &#128145; gofood luôn có ưu đãi ể khao bạn. Xem liền nha!"
                         />
                 </LinearLayout>
                 <Button
