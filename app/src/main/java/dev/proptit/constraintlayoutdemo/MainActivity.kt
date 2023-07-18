@@ -13,11 +13,11 @@ import dev.proptit.constraintlayoutdemo.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
     private lateinit var binding : ActivityMainBinding
     private val dataSet = arrayOf(
+            R.drawable.gocar,
             R.drawable.banner1,
-            R.drawable.banner1,
-            R.drawable.banner1,
-            R.drawable.banner1,
-            R.drawable.banner1
+            R.drawable.gofood,
+            R.drawable.banner2,
+            R.drawable.banner3
     )
 
     override fun onCreate(savedInstanceState: Bundle?) {
