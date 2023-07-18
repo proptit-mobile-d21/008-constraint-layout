@@ -17,4 +17,5 @@
     <string name="discount_title">Ưu đãi</string>
     <string name="order_title">Đơn hàng</string>
     <string name="mail_title">Hộp thư</string>
+    <string name="hint">Tìm dịch vụ, món ngon, địa điểm</string>
 </resources>
