@@ -42,13 +42,15 @@
             app:cardCornerRadius="250dp"
             android:layout_gravity="center"
             app:cardBackgroundColor="@color/white"
-            android:layout_marginRight="16dp">
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="0dp">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="32dp"
                 android:layout_height="32dp"
                 app:cardCornerRadius="250dp"
-                android:layout_gravity="center">
+                android:layout_gravity="center"
+                app:cardElevation="0dp">
 
                 <ImageView
                     android:layout_width="32dp"
@@ -74,49 +76,25 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:orientation="vertical">
-            <!--        Main 1-->
-            <LinearLayout
+
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginEnd="0dp"
-                android:orientation="horizontal">
+                android:gravity="center"
+                android:text="@string/plus"
+                android:textStyle="bold"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="0dp"/>
 
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:paddingStart="0dp"
-                    android:paddingEnd="0dp"
-                    android:src="@drawable/baseline_food_bank_24" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="@string/plus"
-                    android:textStyle="bold"/>
-            </LinearLayout>
-
-            <LinearLayout
+            <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginEnd="0dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_shopping_bag_24" />
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="@string/freeship_90"
-                    android:textStyle="bold"
-                    android:textSize="18sp"/>
-            </LinearLayout>
+                android:gravity="center"
+                android:text="@string/freeship_90"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="0dp"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -152,20 +130,12 @@
                     android:src="@drawable/go_plus" />
             </androidx.cardview.widget.CardView>
 
-
-            <!--        Main 2-->
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
-                android:layout_marginBottom="8dp"
                 android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:src="@drawable/baseline_android_24" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -175,8 +145,6 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center"
-                        android:paddingLeft="8dp"
-                        android:paddingRight="8dp"
                         android:text="@string/go_car"
                         android:textStyle="bold"
                         android:textSize="18sp"/>
@@ -194,10 +162,9 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:paddingStart="16dp"
-                android:paddingEnd="0dp"
-                android:paddingBottom="8dp"
+                android:gravity="center"
                 android:text="@string/di_muon_noi"
+                android:layout_marginStart="16dp"
                 android:textStyle="bold"
                 android:textSize="18sp"/>
 
@@ -232,7 +199,7 @@
                     android:orientation="horizontal">
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="200dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
@@ -269,7 +236,7 @@
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="200dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginEnd="0dp"
@@ -300,14 +267,14 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingStart="8dp"
-                                android:paddingEnd="0dp"
+                                android:paddingEnd="8dp"
                                 android:paddingBottom="16dp"
                                 android:text="@string/dat_la_co" />
                         </LinearLayout>
                     </androidx.cardview.widget.CardView>
 
                     <androidx.cardview.widget.CardView
-                        android:layout_width="200dp"
+                        android:layout_width="160dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
@@ -338,7 +305,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:paddingStart="8dp"
-                                android:paddingEnd="0dp"
+                                android:paddingEnd="8dp"
                                 android:paddingBottom="16dp"
                                 android:text="@string/dat_la_co" />
                         </LinearLayout>
@@ -348,12 +315,21 @@
         </LinearLayout>
     </ScrollView>
 
+    <View
+        android:id="@+id/divider"
+        android:background="@drawable/drop_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:layout_above="@id/bottomNavigationView"
+        android:elevation="0dp"/>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:labelVisibilityMode="labeled"
         android:layout_alignParentBottom="true"
-        app:menu="@menu/bottom_nav_menu" />
+        app:menu="@menu/bottom_nav_menu"
+        android:background="@color/white" />
 
 </RelativeLayout>

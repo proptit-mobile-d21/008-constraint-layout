@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">Constraint Layout Demo</string>
-    <string name="plus">PLUS</string>
-    <string name="freeship_90">Đăng ký 1 lần - 90 lần Freeship</string>
+    <string name="plus">&#10024; PLUS</string>
+    <string name="freeship_90">&#128717;Đăng ký 1 lần - 90 lần Freeship</string>
     <string name="freeship_2goi">2 gói freeship tiết kiệm đến 1.3 triệu cho bạn lựa chọn.</string>
     <string name="mua_goi">Mua gói ngay!</string>
-    <string name="go_car">gocar</string>
-    <string name="go_ride">goride</string>
+    <string name="go_car">&#127875; gocar </string>
+    <string name="go_ride">| goride</string>
     <string name="di_muon_noi">Đi muôn nơi cùng Gojek</string>
     <string name="dat_nhanh">Đặt nhanh đón lẹ đi đâu cũng khỏe.</string>
     <string name="dat_chuyen">Đặt chuyến ngay!</string>
