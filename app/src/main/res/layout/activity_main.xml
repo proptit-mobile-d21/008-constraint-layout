@@ -1,23 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
     tools:context=".MainActivity">
 
-<!--    TODO: Các em lưu ý:-->
-<!--    - Phần thanh tìm kiếm (Toolbar) nên làm cuối cùng vì tốn tg-->
-<!--    - Nên tập trung làm home trước-->
-<!--    - Không nên làm pixel perfect ngay từ đầu, chọn màu chọn font các thứ, làm layout xong trước đã! -->
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:padding="5dp"
+        android:src="@drawable/meow"
+        app:strokeColor="#3E0616"
+        app:strokeWidth="5dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        >
 
-    <TextView
-        android:layout_width="wrap_content"
+    </com.google.android.material.imageview.ShapeableImageView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonSignIn"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginHorizontal="26dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="150dp"
+        android:text="Get Started"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="@color/white"
+        >
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.appcompat.widget.AppCompatButton>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="120dp"
+        android:weightSum="3">
+        <TextView
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:text="Already have an account?"
+            android:textSize="16dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textSize="16dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</RelativeLayout>
