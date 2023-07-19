@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">Constraint Layout Demo</string>
+    <string name="sign_name">Đăng ký 1 lần - 90 lần freeship</string>
+    <string name="freeship">2 gói freeship tiết kiệm đến 1.3 triệu cho bạn lựa chọn</string>
+    <string name="freeship2">Mua gói ngay!</string>
+    <string name="go">Đi muôn nơi cùng Gojek</string>
+    <string name="go2">Đặt nhanh đón lẹ đi đâu cũng khỏe. Đặt chuyến ngay!</string>
+    <string name="gift">Ưu đãi sẵn trong ví</string>
+    <string name="gift2">Xem mục ưu đãi ngay!</string>
 </resources>

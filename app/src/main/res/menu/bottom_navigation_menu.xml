@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:icon="@drawable/baseline_home_24"
+        android:title="Trang chủ" />
+    <item
+        android:icon="@drawable/baseline_percent_24"
+        android:title="Ưu đãi" />
+    <item
+        android:icon="@drawable/baseline_delivery_dining_24"
+        android:title="Đơn hàng" />
+    <item
+        android:icon="@drawable/baseline_assignment_24"
+        android:title="Hộp thư" />
+
+</menu>
+
