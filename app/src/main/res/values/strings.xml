@@ -1,3 +1,9 @@
 <resources>
-    <string name="app_name">Constraint Layout Demo</string>
+    <string name="app_name">InterfaceProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="first_example">First Example</string>
+    <string name="second_example">Second Example</string>
+    <string name="search_bar">Enter here...</string>
+    <string name="first_description">This is a first description</string>
+    <string name="second_description">This is a second description</string>
 </resources>
