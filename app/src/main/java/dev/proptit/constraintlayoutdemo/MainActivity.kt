@@ -50,10 +50,10 @@ class MainActivity : AppCompatActivity() {
     }
     private fun initItemRecyclerView(){
         val dataSet2 = arrayOf(
-            R.drawable.button_corner,
-            R.drawable.button_corner,
-            R.drawable.button_corner,
-            R.drawable.button_corner,
+            R.drawable.gocar,
+            R.drawable.gofood,
+            R.drawable.gosend,
+            R.drawable.goride,
 
             )
         val dataName = arrayOf(
@@ -78,9 +78,9 @@ class MainActivity : AppCompatActivity() {
     }
     private fun initItemRecyclerView2(){
         val dataSet2 = arrayOf(
-            R.drawable.button_corner,
-            R.drawable.button_corner,
-            R.drawable.button_corner,
+            R.drawable.banner2,
+            R.drawable.gofood,
+            R.drawable.banner3,
             )
         val dataName = arrayOf(
             "Quán xịn Deal đỉnh",
