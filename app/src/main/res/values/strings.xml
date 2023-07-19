@@ -4,9 +4,12 @@
     <string name="heading_1">Đăng ký 1 lần - 90 lần Freeship</string>
     <string name="cmt_1">2 gói freeship tiết kiệm đến 1.3 triệu cho bạn lựa chọn. Mua gói ngay!</string>
     <string name="heading_2">Đi muôn nơi cùng Gojek</string>
+    <string name="heading_3">Heading</string>
+    <string name="cmt_3">Mô tả cho heading ở trên</string>
     <string name="cmt_2">Đặt nhanh đón lẹ đi đâu cũng khoẻ. Đặt chuyến ngay!</string>
     <string name="home">Trang chủ</string>
     <string name="gift">Ưu đãi</string>
     <string name="oder">Đơn hàng</string>
     <string name="mail">Hộp thư</string>
+    <string name="finding">Tìm dịch vụ, món ăn, địa điểm</string>
 </resources>
