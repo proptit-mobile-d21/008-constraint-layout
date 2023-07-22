@@ -204,7 +204,8 @@
                         android:layout_marginStart="20dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
-                        app:cardCornerRadius="24dp">
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="24dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -242,7 +243,8 @@
                         android:layout_marginEnd="0dp"
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
-                        app:cardCornerRadius="24dp">
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="24dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -280,7 +282,8 @@
                         android:layout_marginTop="20dp"
                         android:layout_marginBottom="20dp"
                         android:layout_marginEnd="16dp"
-                        app:cardCornerRadius="24dp">
+                        app:cardCornerRadius="24dp"
+                        app:cardElevation="24dp">
 
                         <LinearLayout
                             android:layout_width="match_parent"
@@ -315,13 +318,6 @@
         </LinearLayout>
     </ScrollView>
 
-    <View
-        android:id="@+id/divider"
-        android:background="@drawable/drop_shadow"
-        android:layout_width="match_parent"
-        android:layout_height="8dp"
-        android:layout_above="@id/bottomNavigationView"
-        android:elevation="0dp"/>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
@@ -330,6 +326,7 @@
         app:labelVisibilityMode="labeled"
         android:layout_alignParentBottom="true"
         app:menu="@menu/bottom_nav_menu"
-        android:background="@color/white" />
+        android:background="@color/white"
+        android:elevation="24dp"/>
 
 </RelativeLayout>
