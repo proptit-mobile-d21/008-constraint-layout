@@ -53,7 +53,8 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/plus_text"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -62,7 +63,8 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/plus_title"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -71,7 +73,8 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratregular"
                 android:text="@string/plus_description"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
             <ImageView
                 android:layout_width="match_parent"
@@ -87,7 +90,8 @@
                 android:layout_marginTop="20dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/go"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -96,7 +100,8 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/go_title"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="16sp" />
 
             <TextView
                 android:layout_width="wrap_content"
@@ -105,7 +110,8 @@
                 android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratregular"
                 android:text="@string/go_description"
-                android:textColor="@color/black" />
+                android:textColor="@color/black"
+                android:textSize="14sp" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
@@ -143,7 +149,8 @@
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item1_title"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -152,7 +159,8 @@
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item1_description"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -185,7 +193,8 @@
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item2_title"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -194,7 +203,8 @@
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item2_description"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
@@ -227,7 +237,8 @@
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item3_title"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:textSize="14sp" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -236,7 +247,8 @@
                                 android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item3_description"
-                                android:textColor="@color/black" />
+                                android:textColor="@color/black"
+                                android:textSize="12sp" />
 
                         </LinearLayout>
 
