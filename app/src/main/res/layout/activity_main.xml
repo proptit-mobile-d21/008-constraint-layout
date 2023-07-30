@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    tools:ignore="NotSibling" >
+    tools:ignore="ExtraText,NotSibling" >
 
     <LinearLayout
         android:id="@+id/linear"
@@ -74,29 +74,47 @@
         </LinearLayout>
     </LinearLayout>
 
-
-    <LinearLayout
-        android:id="@+id/linear2"
+    <ScrollView
+        android:id="@+id/scroll"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
+        tools:ignore="MissingConstraints"
         app:layout_constraintBottom_toTopOf="@id/linear"
-        android:layout_marginBottom="10dp"
-        tools:ignore="MissingConstraints">
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="250dp"
-            android:layout_weight="1"
-            android:src="@drawable/ex1"
-            tools:ignore="Suspicious0dp" />
-        <ImageView
-            android:layout_width="0dp"
-            android:layout_height="250dp"
-            android:layout_weight="1"
-            android:src="@drawable/ex1"
-            tools:ignore="Suspicious0dp" />
-    </LinearLayout>
-
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="10dp">
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints">
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/ex1"
+                tools:ignore="Suspicious0dp" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/ex1"
+                tools:ignore="Suspicious0dp" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/ex1"
+                tools:ignore="Suspicious0dp" />
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="250dp"
+                android:layout_weight="1"
+                android:src="@drawable/ex1"
+                tools:ignore="Suspicious0dp" />
+        </LinearLayout>
+    </ScrollView>
     <TextView
         android:id="@+id/text1"
         android:layout_width="match_parent"
@@ -106,7 +124,7 @@
         android:paddingStart="25dp"
         android:textSize="16dp"
         tools:ignore="MissingConstraints"
-        app:layout_constraintBottom_toTopOf="@id/linear2"/>
+        app:layout_constraintBottom_toTopOf="@id/scroll"/>
     <TextView
         android:id="@+id/text2"
         android:layout_width="match_parent"
