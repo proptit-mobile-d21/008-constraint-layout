@@ -3,7 +3,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:background="@color/white"
     android:orientation="vertical"
     tools:context=".MainActivity">
@@ -43,13 +43,14 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginHorizontal="10dp"
             android:background="@color/white"
             android:orientation="vertical">
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/plus_text"
                 android:textColor="@color/black" />
@@ -57,6 +58,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/plus_title"
                 android:textColor="@color/black" />
@@ -64,18 +67,24 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratregular"
                 android:text="@string/plus_description"
                 android:textColor="@color/black" />
 
             <ImageView
                 android:layout_width="match_parent"
-                android:layout_height="200dp"
-                android:src="@drawable/sample_pic_large" />
+                android:layout_height="220dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/large_poster" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/go"
                 android:textColor="@color/black" />
@@ -83,6 +92,8 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratbold"
                 android:text="@string/go_title"
                 android:textColor="@color/black" />
@@ -90,13 +101,16 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="5dp"
                 android:fontFamily="@font/montserratregular"
                 android:text="@string/go_description"
                 android:textColor="@color/black" />
 
             <HorizontalScrollView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp">
 
                 <LinearLayout
                     android:layout_width="wrap_content"
@@ -105,7 +119,11 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content">
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="150dp"
@@ -116,11 +134,13 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="150dp"
-                                android:src="@drawable/sample_pic_large" />
+                                android:src="@drawable/small_poster" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item1_title"
                                 android:textColor="@color/black" />
@@ -128,6 +148,8 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item1_description"
                                 android:textColor="@color/black" />
@@ -138,8 +160,12 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp">
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:padding="5dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="150dp"
@@ -150,11 +176,13 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="150dp"
-                                android:src="@drawable/sample_pic_large" />
+                                android:src="@drawable/small_poster" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item2_title"
                                 android:textColor="@color/black" />
@@ -162,6 +190,8 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item2_description"
                                 android:textColor="@color/black" />
@@ -172,8 +202,12 @@
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:layout_marginStart="10dp">
+                        android:layout_height="230dp"
+                        android:layout_margin="10dp"
+                        android:padding="5dp"
+                        app:cardBackgroundColor="@color/white"
+                        app:cardCornerRadius="20dp"
+                        app:cardElevation="8dp">
 
                         <LinearLayout
                             android:layout_width="150dp"
@@ -184,11 +218,13 @@
                             <ImageView
                                 android:layout_width="match_parent"
                                 android:layout_height="150dp"
-                                android:src="@drawable/sample_pic_large" />
+                                android:src="@drawable/small_poster" />
 
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item3_title"
                                 android:textColor="@color/black" />
@@ -196,6 +232,8 @@
                             <TextView
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
+                                android:layout_marginHorizontal="5dp"
+                                android:layout_marginTop="5dp"
                                 android:fontFamily="@font/montserratregular"
                                 android:text="@string/item3_description"
                                 android:textColor="@color/black" />
