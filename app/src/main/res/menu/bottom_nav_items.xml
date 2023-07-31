@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/nav_home"
+        android:title="@string/home_text"
+        android:icon="@drawable/baseline_home"/>
+    <item android:id="@+id/nav_reward"
+        android:title="@string/reward_text"
+        android:icon="@drawable/baseline_percent"/>
+    <item android:id="@+id/nav_bill"
+        android:title="@string/bill_text"
+        android:icon="@drawable/baseline_request_page"/>
+    <item android:id="@+id/nav_mail"
+        android:title="@string/mail_text"
+        android:icon="@drawable/baseline_message"/>
+</menu>
